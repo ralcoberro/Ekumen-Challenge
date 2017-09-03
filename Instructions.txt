@@ -1,0 +1,35 @@
+
+---- Instruction to Build de Demo
+Start a terminal. In ~/catkin_ws type:
+$catkin_make
+
+
+---- Instruction to Run de Demo
+
+Execute:
+
+In Terminal number 1:
+$ roscore
+
+In Terminal number 2:
+$ roslaunch turtlebot_teleop keyboard_teleop.launch
+
+In Terminal number 3:
+$ . ~/catkin_ws/devel/setup.bash
+$ roslaunch ekumen_exe1 start_ekumen_demo.launch
+
+In Terminal number 4 send a command to check the Server:
+$ rosrun ekumen_exe1 recording_client 0
+
+Send a command for Recording:
+$ rosrun ekumen_exe1 recording_client 1
+And teleop the robot in Gazebo from Terminal 2
+
+Stop Recording, send:
+$ rosrun ekumen_exe1 recording_client 0
+
+Start playing Path in Turtlesim:
+$ rosrun ekumen_exe1 recording_client 2
+
+
+
