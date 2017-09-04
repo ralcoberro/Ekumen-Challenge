@@ -12,18 +12,25 @@ In Terminal number 1:
 $ roscore
 
 In Terminal number 2:
-$ roslaunch turtlebot_teleop keyboard_teleop.launch
+roslaunch turtlebot_gazebo turtlebot_world.launch
 
 In Terminal number 3:
-$ . ~/catkin_ws/devel/setup.bash
-$ roslaunch ekumen_exe1 start_ekumen_demo.launch
+$ roslaunch turtlebot_teleop keyboard_teleop.launch
 
-In Terminal number 4 send a command to check the Server:
+In Terminal number 4:
+  $ . ~/catkin_ws/devel/setup.bash
+  $ roslaunch ekumen_exe1 start_ekumen_demo.launch
+or
+  $ rosrun turtlesim turtlesim_node /turtle1
+   and In Terminal number 4b:
+  $ rosrun ekumen_exe1 recording_server_v3 /turtle1
+
+In Terminal number 5 send a command to check the Server:
 $ rosrun ekumen_exe1 recording_client 0
 
 Send a command for Recording:
 $ rosrun ekumen_exe1 recording_client 1
-And teleop the robot in Gazebo from Terminal 2
+And teleop the robot in Gazebo from Terminal 3
 
 Stop Recording, send:
 $ rosrun ekumen_exe1 recording_client 0

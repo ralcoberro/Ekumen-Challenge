@@ -673,6 +673,19 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named recording_server_v4
+
+# Build rule for target.
+recording_server_v4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 recording_server_v4
+.PHONY : recording_server_v4
+
+# fast build rule for target.
+recording_server_v4/fast:
+	$(MAKE) -f ekumen_exe1/CMakeFiles/recording_server_v4.dir/build.make ekumen_exe1/CMakeFiles/recording_server_v4.dir/build
+.PHONY : recording_server_v4/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_eus
 
 # Build rule for target.
@@ -1205,6 +1218,7 @@ help:
 	@echo "... tf2_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... recording_server_v4"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"

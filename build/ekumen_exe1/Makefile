@@ -646,6 +646,21 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+ekumen_exe1/CMakeFiles/recording_server_v4.dir/rule:
+	cd /home/rodrigo/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ekumen_exe1/CMakeFiles/recording_server_v4.dir/rule
+.PHONY : ekumen_exe1/CMakeFiles/recording_server_v4.dir/rule
+
+# Convenience name for target.
+recording_server_v4: ekumen_exe1/CMakeFiles/recording_server_v4.dir/rule
+
+.PHONY : recording_server_v4
+
+# fast build rule for target.
+recording_server_v4/fast:
+	cd /home/rodrigo/catkin_ws/build && $(MAKE) -f ekumen_exe1/CMakeFiles/recording_server_v4.dir/build.make ekumen_exe1/CMakeFiles/recording_server_v4.dir/build
+.PHONY : recording_server_v4/fast
+
+# Convenience name for target.
 ekumen_exe1/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
 	cd /home/rodrigo/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ekumen_exe1/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : ekumen_exe1/CMakeFiles/roscpp_generate_messages_eus.dir/rule
@@ -1362,6 +1377,33 @@ src/recording_server_v3.cpp.s:
 	cd /home/rodrigo/catkin_ws/build && $(MAKE) -f ekumen_exe1/CMakeFiles/recording_server_v3.dir/build.make ekumen_exe1/CMakeFiles/recording_server_v3.dir/src/recording_server_v3.cpp.s
 .PHONY : src/recording_server_v3.cpp.s
 
+src/recording_server_v4.o: src/recording_server_v4.cpp.o
+
+.PHONY : src/recording_server_v4.o
+
+# target to build an object file
+src/recording_server_v4.cpp.o:
+	cd /home/rodrigo/catkin_ws/build && $(MAKE) -f ekumen_exe1/CMakeFiles/recording_server_v4.dir/build.make ekumen_exe1/CMakeFiles/recording_server_v4.dir/src/recording_server_v4.cpp.o
+.PHONY : src/recording_server_v4.cpp.o
+
+src/recording_server_v4.i: src/recording_server_v4.cpp.i
+
+.PHONY : src/recording_server_v4.i
+
+# target to preprocess a source file
+src/recording_server_v4.cpp.i:
+	cd /home/rodrigo/catkin_ws/build && $(MAKE) -f ekumen_exe1/CMakeFiles/recording_server_v4.dir/build.make ekumen_exe1/CMakeFiles/recording_server_v4.dir/src/recording_server_v4.cpp.i
+.PHONY : src/recording_server_v4.cpp.i
+
+src/recording_server_v4.s: src/recording_server_v4.cpp.s
+
+.PHONY : src/recording_server_v4.s
+
+# target to generate assembly for a file
+src/recording_server_v4.cpp.s:
+	cd /home/rodrigo/catkin_ws/build && $(MAKE) -f ekumen_exe1/CMakeFiles/recording_server_v4.dir/build.make ekumen_exe1/CMakeFiles/recording_server_v4.dir/src/recording_server_v4.cpp.s
+.PHONY : src/recording_server_v4.cpp.s
+
 src/talker.o: src/talker.cpp.o
 
 .PHONY : src/talker.o
@@ -1513,6 +1555,7 @@ help:
 	@echo "... tf2_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... recording_server_v4"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
@@ -1570,6 +1613,9 @@ help:
 	@echo "... src/recording_server_v3.o"
 	@echo "... src/recording_server_v3.i"
 	@echo "... src/recording_server_v3.s"
+	@echo "... src/recording_server_v4.o"
+	@echo "... src/recording_server_v4.i"
+	@echo "... src/recording_server_v4.s"
 	@echo "... src/talker.o"
 	@echo "... src/talker.i"
 	@echo "... src/talker.s"

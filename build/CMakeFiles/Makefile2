@@ -313,6 +313,7 @@ ekumen_exe1/all: ekumen_exe1/CMakeFiles/listener.dir/all
 ekumen_exe1/all: ekumen_exe1/CMakeFiles/recording_server_v2.dir/all
 ekumen_exe1/all: ekumen_exe1/CMakeFiles/recording_server.dir/all
 ekumen_exe1/all: ekumen_exe1/CMakeFiles/talker.dir/all
+ekumen_exe1/all: ekumen_exe1/CMakeFiles/recording_server_v4.dir/all
 ekumen_exe1/all: ekumen_exe1/CMakeFiles/turtle_tf_broadcaster.dir/all
 ekumen_exe1/all: ekumen_exe1/CMakeFiles/ekumen_exe1_generate_messages.dir/all
 ekumen_exe1/all: ekumen_exe1/CMakeFiles/turtle_tf_listener_rec.dir/all
@@ -353,6 +354,7 @@ ekumen_exe1/clean: ekumen_exe1/CMakeFiles/actionlib_msgs_generate_messages_py.di
 ekumen_exe1/clean: ekumen_exe1/CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean
 ekumen_exe1/clean: ekumen_exe1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 ekumen_exe1/clean: ekumen_exe1/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+ekumen_exe1/clean: ekumen_exe1/CMakeFiles/recording_server_v4.dir/clean
 ekumen_exe1/clean: ekumen_exe1/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 ekumen_exe1/clean: ekumen_exe1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean
 ekumen_exe1/clean: ekumen_exe1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
@@ -1212,7 +1214,7 @@ clean: ekumen_exe1/CMakeFiles/tf_generate_messages_nodejs.dir/clean
 ekumen_exe1/CMakeFiles/talker.dir/all: ekumen_exe1/CMakeFiles/ekumen_exe1_generate_messages_cpp.dir/all
 	$(MAKE) -f ekumen_exe1/CMakeFiles/talker.dir/build.make ekumen_exe1/CMakeFiles/talker.dir/depend
 	$(MAKE) -f ekumen_exe1/CMakeFiles/talker.dir/build.make ekumen_exe1/CMakeFiles/talker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodrigo/catkin_ws/build/CMakeFiles --progress-num=35,36 "Built target talker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodrigo/catkin_ws/build/CMakeFiles --progress-num=37,38 "Built target talker"
 .PHONY : ekumen_exe1/CMakeFiles/talker.dir/all
 
 # Include target in all.
@@ -1466,6 +1468,43 @@ ekumen_exe1/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: ekumen_exe1/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ekumen_exe1/CMakeFiles/recording_server_v4.dir
+
+# All Build rule for target.
+ekumen_exe1/CMakeFiles/recording_server_v4.dir/all: ekumen_exe1/CMakeFiles/ekumen_exe1_gencpp.dir/all
+	$(MAKE) -f ekumen_exe1/CMakeFiles/recording_server_v4.dir/build.make ekumen_exe1/CMakeFiles/recording_server_v4.dir/depend
+	$(MAKE) -f ekumen_exe1/CMakeFiles/recording_server_v4.dir/build.make ekumen_exe1/CMakeFiles/recording_server_v4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodrigo/catkin_ws/build/CMakeFiles --progress-num=35,36 "Built target recording_server_v4"
+.PHONY : ekumen_exe1/CMakeFiles/recording_server_v4.dir/all
+
+# Include target in all.
+all: ekumen_exe1/CMakeFiles/recording_server_v4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ekumen_exe1/CMakeFiles/recording_server_v4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodrigo/catkin_ws/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 ekumen_exe1/CMakeFiles/recording_server_v4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodrigo/catkin_ws/build/CMakeFiles 0
+.PHONY : ekumen_exe1/CMakeFiles/recording_server_v4.dir/rule
+
+# Convenience name for target.
+recording_server_v4: ekumen_exe1/CMakeFiles/recording_server_v4.dir/rule
+
+.PHONY : recording_server_v4
+
+# clean rule for target.
+ekumen_exe1/CMakeFiles/recording_server_v4.dir/clean:
+	$(MAKE) -f ekumen_exe1/CMakeFiles/recording_server_v4.dir/build.make ekumen_exe1/CMakeFiles/recording_server_v4.dir/clean
+.PHONY : ekumen_exe1/CMakeFiles/recording_server_v4.dir/clean
+
+# clean rule for target.
+clean: ekumen_exe1/CMakeFiles/recording_server_v4.dir/clean
 
 .PHONY : clean
 
@@ -1764,7 +1803,7 @@ clean: ekumen_exe1/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 ekumen_exe1/CMakeFiles/turtle_tf_broadcaster.dir/all: ekumen_exe1/CMakeFiles/ekumen_exe1_gencpp.dir/all
 	$(MAKE) -f ekumen_exe1/CMakeFiles/turtle_tf_broadcaster.dir/build.make ekumen_exe1/CMakeFiles/turtle_tf_broadcaster.dir/depend
 	$(MAKE) -f ekumen_exe1/CMakeFiles/turtle_tf_broadcaster.dir/build.make ekumen_exe1/CMakeFiles/turtle_tf_broadcaster.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodrigo/catkin_ws/build/CMakeFiles --progress-num=37,38 "Built target turtle_tf_broadcaster"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodrigo/catkin_ws/build/CMakeFiles --progress-num=39,40 "Built target turtle_tf_broadcaster"
 .PHONY : ekumen_exe1/CMakeFiles/turtle_tf_broadcaster.dir/all
 
 # Include target in all.
@@ -2357,7 +2396,7 @@ clean: ekumen_exe1/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 ekumen_exe1/CMakeFiles/turtle_tf_listener_rec.dir/all: ekumen_exe1/CMakeFiles/ekumen_exe1_gencpp.dir/all
 	$(MAKE) -f ekumen_exe1/CMakeFiles/turtle_tf_listener_rec.dir/build.make ekumen_exe1/CMakeFiles/turtle_tf_listener_rec.dir/depend
 	$(MAKE) -f ekumen_exe1/CMakeFiles/turtle_tf_listener_rec.dir/build.make ekumen_exe1/CMakeFiles/turtle_tf_listener_rec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodrigo/catkin_ws/build/CMakeFiles --progress-num=41,42 "Built target turtle_tf_listener_rec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodrigo/catkin_ws/build/CMakeFiles --progress-num=43,44 "Built target turtle_tf_listener_rec"
 .PHONY : ekumen_exe1/CMakeFiles/turtle_tf_listener_rec.dir/all
 
 # Include target in all.
@@ -2618,7 +2657,7 @@ clean: ekumen_exe1/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean
 ekumen_exe1/CMakeFiles/turtle_tf_listener.dir/all: ekumen_exe1/CMakeFiles/ekumen_exe1_gencpp.dir/all
 	$(MAKE) -f ekumen_exe1/CMakeFiles/turtle_tf_listener.dir/build.make ekumen_exe1/CMakeFiles/turtle_tf_listener.dir/depend
 	$(MAKE) -f ekumen_exe1/CMakeFiles/turtle_tf_listener.dir/build.make ekumen_exe1/CMakeFiles/turtle_tf_listener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodrigo/catkin_ws/build/CMakeFiles --progress-num=39,40 "Built target turtle_tf_listener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodrigo/catkin_ws/build/CMakeFiles --progress-num=41,42 "Built target turtle_tf_listener"
 .PHONY : ekumen_exe1/CMakeFiles/turtle_tf_listener.dir/all
 
 # Include target in all.

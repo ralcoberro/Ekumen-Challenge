@@ -42,6 +42,10 @@ add_executable(recording_server_v3 src/recording_server_v3.cpp)
 target_link_libraries(recording_server_v3 ${catkin_LIBRARIES})
 add_dependencies(recording_server_v3 ekumen_exe1_gencpp)
 
+add_executable(recording_server_v4 src/recording_server_v4.cpp)
+target_link_libraries(recording_server_v4 ${catkin_LIBRARIES})
+add_dependencies(recording_server_v4 ekumen_exe1_gencpp)
+
 add_executable(recording_client src/recording_client.cpp)
 target_link_libraries(recording_client ${catkin_LIBRARIES})
 add_dependencies(recording_client ekumen_exe1_gencpp)
