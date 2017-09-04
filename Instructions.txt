@@ -32,4 +32,13 @@ Start playing Path in Turtlesim:
 $ rosrun ekumen_exe1 recording_client 2
 
 
+---- Instruction to Commit in Github
+
+git add -A -v
+git commit -m "<commit info>"
+git remote add origin https://github.com/ralcoberro/Ekumen-Challenge.git
+git push -u origin master
+
+
+
 
