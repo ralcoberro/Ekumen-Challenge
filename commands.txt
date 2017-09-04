@@ -1,0 +1,16 @@
+
+. ~/catkin_ws/devel/setup.bash
+roscore
+roslaunch turtlebot_gazebo turtlebot_world.launch
+roslaunch turtlebot_rviz_launchers view_robot.launch
+roslaunch turtlebot_teleop keyboard_teleop.launch
+
+
+Metodo alternativo:
+
+roscore
+. ~/catkin_ws/devel/setup.bash
+source /opt/ros/kinetic/setup.bash
+
+roslaunch ekumen_exe1 start_tf_demo.launch
+

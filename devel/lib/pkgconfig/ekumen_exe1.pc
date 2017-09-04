@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/devel
+
+Name: ekumen_exe1
+Description: Description of ekumen_exe1
+Version: 0.0.0
+Cflags: -I/home/rodrigo/catkin_ws/devel/include
+Libs: -L/home/rodrigo/catkin_ws/devel/lib 
+Requires: message_runtime

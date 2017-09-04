@@ -1,0 +1,8 @@
+<launch>
+    <!-- Turtlesim Node-->
+    <node pkg="turtlesim" type="turtlesim_node" name="sim"/>
+
+    <node pkg="ekumen_exe1" type="recording_server_v3"
+          args="/turtle1" name="recording_server_v3" />
+
+  </launch>
